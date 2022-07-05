@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<SplitPane dividerPositions="0.3010033444816054" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+  <items>
+<!--    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">-->
+<!--         <children>-->
+            <ScrollPane prefHeight="400.0" prefWidth="181.0">
+         <content>
+            <AnchorPane prefHeight="388.0" prefWidth="162.0">
+               <children>
+                        <ListView fx:id="chapterList" prefHeight="398.0" prefWidth="174.0" />
+               </children>
+            </AnchorPane>
+         </content>
+            </ScrollPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+                  <TextArea fx:id="content" prefHeight="398.0" prefWidth="418.0" text="文本内容" />
+         </children>
+      </AnchorPane>
+<!--            </children></AnchorPane>-->
+  </items>
+</SplitPane>

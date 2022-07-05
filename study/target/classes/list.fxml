@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="505.0" prefWidth="583.0">
+         <children>
+            <ImageView fx:id="cover" fitHeight="134.0" fitWidth="96.0" layoutX="33.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="author" layoutX="171.0" layoutY="77.0" text=""> <!--唐家三少-->
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="fictionType" layoutX="169.0" layoutY="101.0" text=""> <!--玄幻-->
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="title" layoutX="155.0" layoutY="42.0" text=""> <!--斗罗大陆-->
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button layoutX="165.0" layoutY="127.0" mnemonicParsing="false" text=""> <!--阅读-->
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="descs" layoutX="271.0" layoutY="60.0" prefHeight="100.0" prefWidth="278.0" text="" wrapText="true"> <!--textAlignment="JUSTIFY"-->
+            <!-- <Label fx:id="descs" layoutX="271.0" layoutY="41.0" prefHeight="116.0" prefWidth="278.0" text="  唐门外门弟子唐三，因偷学内门绝学为唐门所不容，跳崖明志时却发现没有死，反而以另外一个身份来到了另一个世界，一个属于武魂的世界，名叫斗罗大陆。这里没有魔法，没有斗气，没有武术，却有神奇的武魂。这里的每个人，在自己六岁的时候，都会在武魂殿中令武魂觉醒。武魂有动物，有植物，有器物，武魂可以辅助人们的日常生活。而其中一些特别出色的武魂却可以用来修炼并进行战斗，这个职业，是斗罗大陆上最为强大也是最荣耀的职业——魂师!　　当唐门暗器来到斗罗大陆，当唐三武魂觉醒，他能否在这片武魂的世界再铸唐门的辉煌？他能否成为这个世界的主宰：神?" textAlignment="JUSTIFY" wrapText="true"> -->
+            <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+
+            <!--
+            <ImageView fitHeight="134.0" fitWidth="96.0" layoutX="32.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="170.0" layoutY="221.0" text="唐家三少">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="168.0" layoutY="245.0" text="玄幻">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="154.0" layoutY="186.0" text="斗罗大陆4">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button layoutX="157.0" layoutY="271.0" mnemonicParsing="false" text="阅读">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="270.0" layoutY="185.0" prefHeight="116.0" prefWidth="278.0" text="  一万年后，冰化了。斗罗联邦科考队在极北之地科考时发现了一个有着金银双色花纹的蛋，用仪器探察之后，发现里面居然有生命体征，赶忙将其带回研究所进行孵化。蛋孵化出来了，可孵出来的却是一个婴儿，和人类一模一样的婴儿，一个蛋生的孩子。" textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            -->
+
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
